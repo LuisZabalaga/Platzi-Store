@@ -44,6 +44,7 @@ export class FormProductComponent implements OnInit {
     } 
   }
 
+  // funcion cargar imagen
   uploadFile (event) {
     const file = event.target.files[0];
     const name = event.target.files[0].name;
