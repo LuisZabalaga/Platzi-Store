@@ -1,0 +1,8 @@
+<div class="product-grid">
+    <!-- tag con el nombre selector desde el componente creado -->
+    <!-- Ahora estamos agregando el componente y le pasamos la variable iteradora let product -->
+    <app-product *ngFor="let product of products" 
+      (productClicked)="clickProduct($event)" 
+      [product]="product">
+    </app-product>  
+  </div>

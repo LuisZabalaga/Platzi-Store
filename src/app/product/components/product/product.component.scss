@@ -1,0 +1,62 @@
+// host es el elemento que crea angular para un componente por defecto
+// :host {
+    
+//     margin: 4px;
+//     padding: 0;
+//     border: 1px solid #00F505;
+//     border-radius: 10px;
+//     overflow: hidden;
+//     display: block;
+// }
+
+.crop-image {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 100%;
+    }
+}
+
+// h3 {
+//     background-color: #00F505;
+//     color: white;
+//     margin: 0;
+//     padding: 20px;
+//     font-size: 20px;
+//     text-align: center;
+// }
+
+// strong {
+//     display: flex;
+//     color: cyan;
+//     font-weight: bold;
+//     font-size: 20px;
+//     text-align: center;
+//     margin: 0 5px;
+// }
+
+// p {
+//     font-weight: bold;
+//     margin: 5px 5px 20px 5px;
+// }
+
+// button {
+//     display: flex;
+//     background-color: #5AE401;
+//     border: 0;
+//     color: white;
+//     padding: 15px;
+//     font-size: 15px;
+//     bottom: 0px;
+//     width: 100%;
+//     }
+//     button:hover {
+//         background-color: #00F505;
+//         cursor: pointer;
+//     }
